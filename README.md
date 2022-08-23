@@ -1,6 +1,26 @@
 # CodeBase14
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0. This project is set up directories structure.
+
+## Principles applied:
+
+- Lazy loading
+- Singleton
+
+## Environments:
+There are 3 preset environments:
+- [Local environment: environment.ts](src/environments/environment.ts)
+- [Staging/UAT environment: environment.staging.ts](src/environments/environment.staging.ts)
+- [Product environment: environment.prod.ts](src/environments/environment.prod.ts)
+
+### Please read these guildlines before getting start:
+
+- [Shared module guidline](src/app/shared/GUIDE.md)
+- [UI block module guideline](src/app/ui/blocks/GUIDE.md)
+- [UI layout module guideline](src/app/ui/layouts/GUIDE.md)
+- [Page level module guideline](src/app/pages/GUIDE.md)
+- [service guideline](src/app/core/services/GUIDE.md)
+
 
 ## Development server
 
